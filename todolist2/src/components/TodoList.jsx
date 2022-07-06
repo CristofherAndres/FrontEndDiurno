@@ -27,7 +27,7 @@ export function TodoList() {
     setTodos((prevTodos) => {
       const newTask = {
         id: uuid(),
-        task: { task },
+        task: task,
       };
 
       return [...prevTodos, newTask];
